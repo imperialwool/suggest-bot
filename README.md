@@ -16,3 +16,6 @@ Written using micro-editor.
 - Paste it in secrets
 - Also change locale.json file!
 - Redeploy
+
+Example of secrets in fly.io:
+<img width="1174" alt="sampel text" src="https://github.com/user-attachments/assets/f4071226-0169-402d-ba6a-6e612216e222" />
