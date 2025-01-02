@@ -1,0 +1,23 @@
+{
+  "name": "huskbot",
+  "module": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/main.ts",
+    "prod": "bun src/main.ts"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.9",
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.3",
+    "postgres": "^3.4.4",
+    "telegram": "^2.22.2"
+  },
+  "trustedDependencies": [
+    "bufferutil",
+    "es5-ext",
+    "utf-8-validate"
+  ]
+}
